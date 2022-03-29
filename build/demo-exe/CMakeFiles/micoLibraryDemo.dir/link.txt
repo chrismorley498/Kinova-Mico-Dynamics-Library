@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/micoLibraryDemo.dir/main.cpp.o -o micoLibraryDemo  ../MicoLibrary/libMicoLibrary.a 

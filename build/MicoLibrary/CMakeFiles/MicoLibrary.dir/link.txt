@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMicoLibrary.a CMakeFiles/MicoLibrary.dir/Mico.cpp.o CMakeFiles/MicoLibrary.dir/MicoLibrary_data.cpp.o
+/usr/bin/ranlib libMicoLibrary.a
