@@ -13,7 +13,6 @@ int main(int argc,char *argv[])
   double J[36];
   double transform[16];
   std::cout<<"This executable is used to demonstrate the C++ library created for the Kinova Mico manipulator"<<std::endl;
-  std::cout<<argc<<std::endl;
   Mico micoRobot=Mico();
 
   std::cout<<"\n\n";
