@@ -27,3 +27,5 @@ dJdt := This function calculates the derivative of the jacobian with respect to 
 transform := This function returns the transform of the EE wrt the base frame. Units of the cartesian position are in meters. 
 
 All functions are dependant on the current manipulator configuration (q in rad) and C * dJdt are also dependant on the joint velocities (dq in rad/s)
+
+An example executable is included to demonstrate all the functions in the class. The exe can be passed command line arguments to print the vectors/matricies for a given state of the manipulator. The arguments are passed in the following form: ./build/demo-exe/micoLibraryDemo q1 q2 q3 q4 q5 q6 dq1 dq2 dq3 dq4 dq5 dq6 . If not arguments are passed, or the incorrect number of arguments, the executable prints the vectors/matrices for the state where q=dq=[1,2,3,4,5,6]. 
